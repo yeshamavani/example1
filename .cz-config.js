@@ -24,7 +24,13 @@ module.exports = {
     { value: "WIP", name: "WIP:      Work in progress" },
   ],
 
-  scopes: [{ name: "ci-cd" }, { name: "deps" }, { name: "migrations" }],
+  scopes: [
+    { name: "toggle-service" },
+    { name: "auth-service" },
+    { name: "ci-cd" },
+    { name: "deps" },
+    { name: "migrations" },
+  ],
 
   appendBranchNameToCommitMessage: false,
   allowTicketNumber: false,

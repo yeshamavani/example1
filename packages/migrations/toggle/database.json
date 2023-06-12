@@ -1,0 +1,22 @@
+{
+    "defaultEnv": "master",
+    "master": {
+      "driver": "pg",
+      "host": {
+        "ENV": "TOGGLE_DB_HOST"
+      },
+      "port": {
+        "ENV": "TOGGLE_DB_PORT"
+      },
+      "user": {
+        "ENV": "TOGGLE_DB_USER"
+      },
+      "password": {
+        "ENV": "TOGGLE_DB_PASSWORD"
+      },
+      "database": {
+        "ENV": "TOGGLE_DB_DATABASE"
+      }
+    },
+    "sql-file": true
+}
